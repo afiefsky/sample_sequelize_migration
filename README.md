@@ -1,3 +1,5 @@
+The purpose of this repo is for dumping sequelize migration files that I made by my own
+
 Installation
 1. run: npm install
 2. run: sequelize init
