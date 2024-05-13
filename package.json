@@ -2,14 +2,24 @@
   "name": "sample_sequelize_migration",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./test/migration_test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./test/migration_test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "mysql2": "^3.9.7",
     "sequelize": "^6.37.3"
-  }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "chai": "^5.1.1",
+    "nodemon": "^2.0.22"
+  },
+  "presets": [
+    "@babel/preset-env"
+  ]
 }
