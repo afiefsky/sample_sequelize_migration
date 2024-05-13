@@ -9,3 +9,5 @@ Installation
 4. modify config/config.json based on needs
 5. run: sequelize db:migrate
 6. done
+
+As per 13 May 2024, there are 3 migrations tested
